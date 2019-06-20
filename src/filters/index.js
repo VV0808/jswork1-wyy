@@ -1,8 +1,8 @@
 const filters = {
   numToWan: function (n) {
-    if(n<10000){
+    if (n < 10000) {
       return n
-    }else{
+    } else {
       return (n / 10000).toFixed(1) + '万'
     }
   },
